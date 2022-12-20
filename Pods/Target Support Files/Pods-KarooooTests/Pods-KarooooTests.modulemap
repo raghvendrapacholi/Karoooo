@@ -1,0 +1,6 @@
+framework module Pods_KarooooTests {
+  umbrella header "Pods-KarooooTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
