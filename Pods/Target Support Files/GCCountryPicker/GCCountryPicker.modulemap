@@ -1,0 +1,6 @@
+framework module GCCountryPicker {
+  umbrella header "GCCountryPicker-umbrella.h"
+
+  export *
+  module * { export * }
+}

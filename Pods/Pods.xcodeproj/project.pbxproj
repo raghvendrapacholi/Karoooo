@@ -1,0 +1,1255 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		06449DE20AB55CBB23F577C3EC31BA4B /* GCSearchResultsDisplayMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1839A16D9BE11F7DEFB71E40088C1CA5 /* GCSearchResultsDisplayMode.swift */; };
+		06BEBCDCCCA58103E89F419022D43F2E /* AnimatedField+UIPickerViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEA5FE8833CB38B0925D7DAFAB11AEC1 /* AnimatedField+UIPickerViewDelegate.swift */; };
+		0C55447572C988A6440C10073CDED2C0 /* AnimatedFieldType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70C5083BCD6D968003146A7D163FBB4D /* AnimatedFieldType.swift */; };
+		1250ACE56046863584AFF7AF7175F796 /* AnimatedField-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CC86DEE7EB9990DD3141C20522BE847 /* AnimatedField-dummy.m */; };
+		1CE67D773FD85C2C6527A3E44EFD6C87 /* AnimatedField-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AC939FA0D227DD42416644972D316F43 /* AnimatedField-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1F70EC9C7955F639C860542837F09455 /* GCCountry.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1F142CB3A9634471C0D1105E9D30953 /* GCCountry.swift */; };
+		256ACFB83051C34728991DC155E5088A /* AnimatedFieldAlertPosition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01A84746EAD1B09ABEB5081747A91892 /* AnimatedFieldAlertPosition.swift */; };
+		28B9A754776DA70FCA844DD9C9385332 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */; };
+		2B373EEFEA9539504F9D9148AB200AED /* GCCountryPickerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80CC467814F7687B341EE968469D80F2 /* GCCountryPickerDelegate.swift */; };
+		2C76C8FA7E1625F13BB5F5CE001C1500 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */; };
+		2F7CD94005B696BFDBEA78B8D209B44E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */; };
+		332FF4F17761FDD9C733710575921E3D /* AnimatedField.xib in Sources */ = {isa = PBXBuildFile; fileRef = C793F30D70BF36FCE033D8747A4F2AA4 /* AnimatedField.xib */; };
+		4227D659907F57955F99FF5F734F67DC /* AnimatedFieldFormat.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCC068EA7F2ABB91699FB46BCDDB1E89 /* AnimatedFieldFormat.swift */; };
+		4CCDA67FEFBE8E95B3B9350A02604FF9 /* GCCountryPickerDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32AD7BC853BAD4224ADC76DD73CF7090 /* GCCountryPickerDataSource.swift */; };
+		559C25E31ED9F98ACAC7155BC0CB2967 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */; };
+		615BC5AA89F37F56CFDAB8DCA0AAB6F6 /* UIView+Nib.swift in Sources */ = {isa = PBXBuildFile; fileRef = C35B4E8AA490EA0A89642EC0AB0460A6 /* UIView+Nib.swift */; };
+		769F6CEFE161F12C7D2CC254922C0687 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D245E0514AAC1A2B9A6D5EA2F383E90F /* UIKit.framework */; };
+		7AB80CFEEBA3B5B02B0FCB9CFEBC3963 /* String+RegEx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98F09B2156BE4240167359CE336D78B6 /* String+RegEx.swift */; };
+		7BF3BED314E3B5786C624F3F3954F7F5 /* GCCountryPickerDisplayMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F166B1710180732394236E1469473B8 /* GCCountryPickerDisplayMode.swift */; };
+		8B4A535D333AF50CB7EDEBCBE90E42EE /* GCCountryPicker-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 83D5B472935A88D3ADE77597250BC124 /* GCCountryPicker-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8FEB5E7DF95EE8D60E771CB3D1FC780A /* GCSearchResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61439C841A7AE8DF5BAB02D2646A26F6 /* GCSearchResult.swift */; };
+		9AD280505EE3218CCFE1403920EFB742 /* AnimatedField+Protocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = F338B33111B18812ECC1CE89FCD17F23 /* AnimatedField+Protocols.swift */; };
+		9B5D2072D9581FC283565DB1DEBBA706 /* Pods-Karoooo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8315A14DA6119981998246AAEFA6D071 /* Pods-Karoooo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9ED659DE4448FB2FEAC161F359FC02C8 /* GCCountryPicker.h in Headers */ = {isa = PBXBuildFile; fileRef = 1376E547CD4554C3D77AEE144DEA7FC0 /* GCCountryPicker.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A3BC83608E558F2FF594B6F6732240B2 /* GCCountryPickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 425D846F5D22DD02EBFB49351AB7D599 /* GCCountryPickerViewController.swift */; };
+		AA5074A2B8B69A08176ED6ABCB092A60 /* GCCountryPicker-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B2C7C673AD64BDEEA130A1FA794581B6 /* GCCountryPicker-dummy.m */; };
+		AE0E83C496D124B88BDA8996BCA199A6 /* AnimatedField+TextViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58DC0E978516B9856155C3B0D02C2BE0 /* AnimatedField+TextViewDelegate.swift */; };
+		B26DF0449CFB70C14816A30FD696A3A2 /* Pods-KarooooTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CFC6B2055868B073752A9B4EC0D1F371 /* Pods-KarooooTests-dummy.m */; };
+		BF330526D278955AE95A3C61CF8AB27F /* GCSearchResultsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB92976A31B1DEA5556B14B6F1F17F6C /* GCSearchResultsController.swift */; };
+		C22DAACFBA9AA98D000F42EFBC4802D8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */; };
+		C4BD6778A514AB4C04AA9968A5DB3B24 /* IconsLibrary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3811B0A28E67BE2F49348498F222018B /* IconsLibrary.swift */; };
+		C87A64691CF40D392BB045A5DF3B8D2F /* AnimatedField+TextFieldDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B80CD40DDAA4D3EE2BA4EB0C0682C12B /* AnimatedField+TextFieldDelegate.swift */; };
+		D1C4E1849BB17025DFA2D0A88FDF69F5 /* Pods-Karoooo-KarooooUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 593672C266F137C5E1D78BAD17A5510C /* Pods-Karoooo-KarooooUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DA83A0418F3882C52D4B2A4C16EC206C /* Pods-Karoooo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F395D5A9F26728FCBE66D7665DBA2B57 /* Pods-Karoooo-dummy.m */; };
+		DEA45E486B84D9D5E48C18EC9B3FE6A3 /* AnimatedField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53A31298F131BFF8AE670E4017E26127 /* AnimatedField.swift */; };
+		E7E2053DBC1020D9338B79F82685D77E /* UIView+Shake.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85ED536A62372137EA180BA1729376E6 /* UIView+Shake.swift */; };
+		EEB9577127F8C4A5B48280B655283127 /* Pods-Karoooo-KarooooUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 39D754A460AAD8624DCD2D412B8CD915 /* Pods-Karoooo-KarooooUITests-dummy.m */; };
+		F54FC5C9D1522D0410BFC06271D10A50 /* GCSearchResultsDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8570540D46BF41F44B842670A5C6701 /* GCSearchResultsDelegate.swift */; };
+		F6E0DE1B5E8CF607EC1DEACB3CBDB3EE /* Pods-KarooooTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 297CB87EC9738E01557AFEB80208CD7D /* Pods-KarooooTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FEB660BE08BB2919022299CB6EB32F59 /* Date+Format.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7803CC7EB6478E8E1478E67A9B6B2D7F /* Date+Format.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2CFB7E48F867875FBCB396E61BF27B15 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9FA631C269FD035489D932BE6527E56C;
+			remoteInfo = AnimatedField;
+		};
+		74EF47C1B4A815A8C187941D57CD2882 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 20BA7468F65980A1E072E51F7AB950B7;
+			remoteInfo = GCCountryPicker;
+		};
+		C5E57B00BA87E2E1DB0BFE2337960353 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9FA631C269FD035489D932BE6527E56C;
+			remoteInfo = AnimatedField;
+		};
+		EE0A14CD46B212A8FE561876B2069F67 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3470B498DB98A353851F445DEEA61919;
+			remoteInfo = "Pods-Karoooo";
+		};
+		F673F422D892441C06BA0CAFEAF979A0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 20BA7468F65980A1E072E51F7AB950B7;
+			remoteInfo = GCCountryPicker;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		002F2D05894ABA214A1A1A93DBEF9D49 /* Pods-KarooooTests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-KarooooTests"; path = Pods_KarooooTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		01A84746EAD1B09ABEB5081747A91892 /* AnimatedFieldAlertPosition.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AnimatedFieldAlertPosition.swift; path = AnimatedField/Classes/AnimatedFieldAlertPosition.swift; sourceTree = "<group>"; };
+		0E264F7FEE71833F86626FC1A3DF79BF /* Pods-Karoooo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Karoooo.modulemap"; sourceTree = "<group>"; };
+		1060C6F6924810ED258ADDF4AEC0FD4D /* Pods-Karoooo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Karoooo-acknowledgements.markdown"; sourceTree = "<group>"; };
+		1376E547CD4554C3D77AEE144DEA7FC0 /* GCCountryPicker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCCountryPicker.h; path = Sources/GCCountryPicker/GCCountryPicker.h; sourceTree = "<group>"; };
+		1839A16D9BE11F7DEFB71E40088C1CA5 /* GCSearchResultsDisplayMode.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GCSearchResultsDisplayMode.swift; path = Sources/GCCountryPicker/GCSearchResultsDisplayMode.swift; sourceTree = "<group>"; };
+		1CC86DEE7EB9990DD3141C20522BE847 /* AnimatedField-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AnimatedField-dummy.m"; sourceTree = "<group>"; };
+		28B64581F83A4603AC2E82FA8C82C81C /* GCCountryPicker.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GCCountryPicker.release.xcconfig; sourceTree = "<group>"; };
+		297CB87EC9738E01557AFEB80208CD7D /* Pods-KarooooTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-KarooooTests-umbrella.h"; sourceTree = "<group>"; };
+		2C846C8B4E67EA33EDE0EFBF1EA8365C /* Pods-KarooooTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-KarooooTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		32AD7BC853BAD4224ADC76DD73CF7090 /* GCCountryPickerDataSource.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GCCountryPickerDataSource.swift; path = Sources/GCCountryPicker/GCCountryPickerDataSource.swift; sourceTree = "<group>"; };
+		35534A52A0920FA2818C848271E9FE59 /* Pods-KarooooTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-KarooooTests.modulemap"; sourceTree = "<group>"; };
+		3811B0A28E67BE2F49348498F222018B /* IconsLibrary.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IconsLibrary.swift; path = AnimatedField/Classes/Utils/IconsLibrary.swift; sourceTree = "<group>"; };
+		3933744BED8A825C499E80D5BDCECD57 /* Pods-Karoooo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Karoooo-acknowledgements.plist"; sourceTree = "<group>"; };
+		39D754A460AAD8624DCD2D412B8CD915 /* Pods-Karoooo-KarooooUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Karoooo-KarooooUITests-dummy.m"; sourceTree = "<group>"; };
+		3CAC41C176309292B866743C6376BEFC /* Pods-Karoooo-KarooooUITests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-Karoooo-KarooooUITests"; path = Pods_Karoooo_KarooooUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D51428804EEB5C171D5E254CFAC6AEB /* Pods-KarooooTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KarooooTests.release.xcconfig"; sourceTree = "<group>"; };
+		425D846F5D22DD02EBFB49351AB7D599 /* GCCountryPickerViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GCCountryPickerViewController.swift; path = Sources/GCCountryPicker/GCCountryPickerViewController.swift; sourceTree = "<group>"; };
+		4F454AED0A40DF852EDC0589D6A870A9 /* GCCountryPicker.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GCCountryPicker.debug.xcconfig; sourceTree = "<group>"; };
+		53A31298F131BFF8AE670E4017E26127 /* AnimatedField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AnimatedField.swift; path = AnimatedField/Classes/AnimatedField.swift; sourceTree = "<group>"; };
+		53CF1D3ACA43E486F54278CAC47B42AA /* Pods-Karoooo-KarooooUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Karoooo-KarooooUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		553B9E1C05E8891A66D80605424EFC6E /* Pods-KarooooTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KarooooTests-Info.plist"; sourceTree = "<group>"; };
+		57DB8CC6076B5CB5BA8014BCA022EF8D /* AnimatedField-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "AnimatedField-Info.plist"; sourceTree = "<group>"; };
+		58DC0E978516B9856155C3B0D02C2BE0 /* AnimatedField+TextViewDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "AnimatedField+TextViewDelegate.swift"; path = "AnimatedField/Classes/AnimatedField+TextViewDelegate.swift"; sourceTree = "<group>"; };
+		593672C266F137C5E1D78BAD17A5510C /* Pods-Karoooo-KarooooUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Karoooo-KarooooUITests-umbrella.h"; sourceTree = "<group>"; };
+		61439C841A7AE8DF5BAB02D2646A26F6 /* GCSearchResult.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GCSearchResult.swift; path = Sources/GCCountryPicker/GCSearchResult.swift; sourceTree = "<group>"; };
+		61844D2D7D28D701C7620E8C63B1D7C9 /* AnimatedField.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AnimatedField.debug.xcconfig; sourceTree = "<group>"; };
+		6B52745509F79CB8FD966456B0B9B529 /* Pods-Karoooo-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Karoooo-frameworks.sh"; sourceTree = "<group>"; };
+		6F166B1710180732394236E1469473B8 /* GCCountryPickerDisplayMode.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GCCountryPickerDisplayMode.swift; path = Sources/GCCountryPicker/GCCountryPickerDisplayMode.swift; sourceTree = "<group>"; };
+		70C5083BCD6D968003146A7D163FBB4D /* AnimatedFieldType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AnimatedFieldType.swift; path = AnimatedField/Classes/AnimatedFieldType.swift; sourceTree = "<group>"; };
+		7803CC7EB6478E8E1478E67A9B6B2D7F /* Date+Format.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Date+Format.swift"; path = "AnimatedField/Classes/Extensions/Date+Format.swift"; sourceTree = "<group>"; };
+		7CED7E64E193EBEA9566D516A71E3187 /* Pods-Karoooo */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-Karoooo"; path = Pods_Karoooo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		80CC467814F7687B341EE968469D80F2 /* GCCountryPickerDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GCCountryPickerDelegate.swift; path = Sources/GCCountryPicker/GCCountryPickerDelegate.swift; sourceTree = "<group>"; };
+		8315A14DA6119981998246AAEFA6D071 /* Pods-Karoooo-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Karoooo-umbrella.h"; sourceTree = "<group>"; };
+		83D5B472935A88D3ADE77597250BC124 /* GCCountryPicker-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GCCountryPicker-umbrella.h"; sourceTree = "<group>"; };
+		85ED536A62372137EA180BA1729376E6 /* UIView+Shake.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIView+Shake.swift"; path = "AnimatedField/Classes/Extensions/UIView+Shake.swift"; sourceTree = "<group>"; };
+		896E8DBCA2CCEC55B24145D2BCAFA6BC /* Pods-KarooooTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KarooooTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		8D31E0190373D120DA9AB3C5FD6BB583 /* Pods-Karoooo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Karoooo.release.xcconfig"; sourceTree = "<group>"; };
+		910F2D8EF40BAEFB762747427B16E046 /* AnimatedField */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = AnimatedField; path = AnimatedField.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		92BE3D4AE6C22ED887FED1BCF484BF99 /* Pods-Karoooo-KarooooUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Karoooo-KarooooUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		935392B7DECC481E866C3178A7BDF60A /* Pods-Karoooo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Karoooo.debug.xcconfig"; sourceTree = "<group>"; };
+		966E31604CA246FA7BC03C3B73B95174 /* AnimatedField.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AnimatedField.release.xcconfig; sourceTree = "<group>"; };
+		9782D7EB5FE1BC504577C02785ECC160 /* GCCountryPicker-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "GCCountryPicker-Info.plist"; sourceTree = "<group>"; };
+		98F09B2156BE4240167359CE336D78B6 /* String+RegEx.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "String+RegEx.swift"; path = "AnimatedField/Classes/Extensions/String+RegEx.swift"; sourceTree = "<group>"; };
+		9BB71614610FC08BFC0F187C6C58D665 /* Pods-Karoooo-KarooooUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Karoooo-KarooooUITests.modulemap"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A8570540D46BF41F44B842670A5C6701 /* GCSearchResultsDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GCSearchResultsDelegate.swift; path = Sources/GCCountryPicker/GCSearchResultsDelegate.swift; sourceTree = "<group>"; };
+		AB92976A31B1DEA5556B14B6F1F17F6C /* GCSearchResultsController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GCSearchResultsController.swift; path = Sources/GCCountryPicker/GCSearchResultsController.swift; sourceTree = "<group>"; };
+		AC939FA0D227DD42416644972D316F43 /* AnimatedField-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AnimatedField-umbrella.h"; sourceTree = "<group>"; };
+		B2C7C673AD64BDEEA130A1FA794581B6 /* GCCountryPicker-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GCCountryPicker-dummy.m"; sourceTree = "<group>"; };
+		B720E218E39DA433AAFBA2685EA29544 /* Pods-KarooooTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KarooooTests.debug.xcconfig"; sourceTree = "<group>"; };
+		B80CD40DDAA4D3EE2BA4EB0C0682C12B /* AnimatedField+TextFieldDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "AnimatedField+TextFieldDelegate.swift"; path = "AnimatedField/Classes/AnimatedField+TextFieldDelegate.swift"; sourceTree = "<group>"; };
+		BC5BA7860A6C4A7AD1C6CD109CAB5BB7 /* Pods-Karoooo-KarooooUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Karoooo-KarooooUITests.release.xcconfig"; sourceTree = "<group>"; };
+		BCC068EA7F2ABB91699FB46BCDDB1E89 /* AnimatedFieldFormat.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AnimatedFieldFormat.swift; path = AnimatedField/Classes/AnimatedFieldFormat.swift; sourceTree = "<group>"; };
+		C013B29AB38B52D02D861AB10CCF811F /* Pods-Karoooo-KarooooUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Karoooo-KarooooUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		C1F142CB3A9634471C0D1105E9D30953 /* GCCountry.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GCCountry.swift; path = Sources/GCCountryPicker/GCCountry.swift; sourceTree = "<group>"; };
+		C35B4E8AA490EA0A89642EC0AB0460A6 /* UIView+Nib.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIView+Nib.swift"; path = "AnimatedField/Classes/Extensions/UIView+Nib.swift"; sourceTree = "<group>"; };
+		C793F30D70BF36FCE033D8747A4F2AA4 /* AnimatedField.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = AnimatedField.xib; path = AnimatedField/Classes/AnimatedField.xib; sourceTree = "<group>"; };
+		C7FD8960FE6868A83832AD2C497C7C28 /* Pods-Karoooo-KarooooUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Karoooo-KarooooUITests-frameworks.sh"; sourceTree = "<group>"; };
+		CDA526BD64F3D92156CCD8124FB141D0 /* AnimatedField.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = AnimatedField.modulemap; sourceTree = "<group>"; };
+		CFC6B2055868B073752A9B4EC0D1F371 /* Pods-KarooooTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-KarooooTests-dummy.m"; sourceTree = "<group>"; };
+		D245E0514AAC1A2B9A6D5EA2F383E90F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		DD520C5D09F5E8BA675570A808689C3E /* GCCountryPicker-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GCCountryPicker-prefix.pch"; sourceTree = "<group>"; };
+		DD75346426EC85BBE24C39FE5135FCF8 /* GCCountryPicker.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = GCCountryPicker.modulemap; sourceTree = "<group>"; };
+		E269F75743625EA6CF3479455E6A96C2 /* Pods-Karoooo-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Karoooo-Info.plist"; sourceTree = "<group>"; };
+		E647AA729DF9733B9F0789B66E068DFE /* Pods-Karoooo-KarooooUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Karoooo-KarooooUITests-Info.plist"; sourceTree = "<group>"; };
+		EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		EEA5FE8833CB38B0925D7DAFAB11AEC1 /* AnimatedField+UIPickerViewDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "AnimatedField+UIPickerViewDelegate.swift"; path = "AnimatedField/Classes/AnimatedField+UIPickerViewDelegate.swift"; sourceTree = "<group>"; };
+		F003F0837EB22BDED95AFA255FAB3DA1 /* GCCountryPicker */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = GCCountryPicker; path = GCCountryPicker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F338B33111B18812ECC1CE89FCD17F23 /* AnimatedField+Protocols.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "AnimatedField+Protocols.swift"; path = "AnimatedField/Classes/AnimatedField+Protocols.swift"; sourceTree = "<group>"; };
+		F395D5A9F26728FCBE66D7665DBA2B57 /* Pods-Karoooo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Karoooo-dummy.m"; sourceTree = "<group>"; };
+		FC22B0B1CCD55C4C24861B80EF94CDF4 /* AnimatedField-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AnimatedField-prefix.pch"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		165F06CF1F1852D159FE6485FBAEFB35 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F7CD94005B696BFDBEA78B8D209B44E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		601DB28BF7A6DA4286B3D110D5730367 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C22DAACFBA9AA98D000F42EFBC4802D8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2FCCC112959FF2A916BBCCB2155F07A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				559C25E31ED9F98ACAC7155BC0CB2967 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C63F8EDE0FDA9EB7E1D0A224F5A670CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28B9A754776DA70FCA844DD9C9385332 /* Foundation.framework in Frameworks */,
+				769F6CEFE161F12C7D2CC254922C0687 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC17CC1E086F0E2F0629E76781BAE0B0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C76C8FA7E1625F13BB5F5CE001C1500 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				59DA5C1F72E1D5BABC43EACBA672C3BA /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		190EC1A0C8799779CF9C6DEBD5911A3B /* AnimatedField */ = {
+			isa = PBXGroup;
+			children = (
+				53A31298F131BFF8AE670E4017E26127 /* AnimatedField.swift */,
+				C793F30D70BF36FCE033D8747A4F2AA4 /* AnimatedField.xib */,
+				F338B33111B18812ECC1CE89FCD17F23 /* AnimatedField+Protocols.swift */,
+				B80CD40DDAA4D3EE2BA4EB0C0682C12B /* AnimatedField+TextFieldDelegate.swift */,
+				58DC0E978516B9856155C3B0D02C2BE0 /* AnimatedField+TextViewDelegate.swift */,
+				EEA5FE8833CB38B0925D7DAFAB11AEC1 /* AnimatedField+UIPickerViewDelegate.swift */,
+				01A84746EAD1B09ABEB5081747A91892 /* AnimatedFieldAlertPosition.swift */,
+				BCC068EA7F2ABB91699FB46BCDDB1E89 /* AnimatedFieldFormat.swift */,
+				70C5083BCD6D968003146A7D163FBB4D /* AnimatedFieldType.swift */,
+				7803CC7EB6478E8E1478E67A9B6B2D7F /* Date+Format.swift */,
+				3811B0A28E67BE2F49348498F222018B /* IconsLibrary.swift */,
+				98F09B2156BE4240167359CE336D78B6 /* String+RegEx.swift */,
+				C35B4E8AA490EA0A89642EC0AB0460A6 /* UIView+Nib.swift */,
+				85ED536A62372137EA180BA1729376E6 /* UIView+Shake.swift */,
+				7CF1E095E51546F16D8A162DAA7A840B /* Support Files */,
+			);
+			name = AnimatedField;
+			path = AnimatedField;
+			sourceTree = "<group>";
+		};
+		22B44DD79693A6257171E172F8557938 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				190EC1A0C8799779CF9C6DEBD5911A3B /* AnimatedField */,
+				89A22C0EEB677AC45B9395569A67AF38 /* GCCountryPicker */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		2B9D69BAFEC627C84AC35D073A6282E6 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				DD75346426EC85BBE24C39FE5135FCF8 /* GCCountryPicker.modulemap */,
+				B2C7C673AD64BDEEA130A1FA794581B6 /* GCCountryPicker-dummy.m */,
+				9782D7EB5FE1BC504577C02785ECC160 /* GCCountryPicker-Info.plist */,
+				DD520C5D09F5E8BA675570A808689C3E /* GCCountryPicker-prefix.pch */,
+				83D5B472935A88D3ADE77597250BC124 /* GCCountryPicker-umbrella.h */,
+				4F454AED0A40DF852EDC0589D6A870A9 /* GCCountryPicker.debug.xcconfig */,
+				28B64581F83A4603AC2E82FA8C82C81C /* GCCountryPicker.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/GCCountryPicker";
+			sourceTree = "<group>";
+		};
+		4DB7943A7099047507B70C67C02605E3 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F440236F2752C729E37C669460D553ED /* Pods-Karoooo */,
+				DE1679686EE962C9B004EF985CDEF521 /* Pods-Karoooo-KarooooUITests */,
+				98914EBEDBB1DAC61C064F9160EA292B /* Pods-KarooooTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		59DA5C1F72E1D5BABC43EACBA672C3BA /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */,
+				D245E0514AAC1A2B9A6D5EA2F383E90F /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7CF1E095E51546F16D8A162DAA7A840B /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				CDA526BD64F3D92156CCD8124FB141D0 /* AnimatedField.modulemap */,
+				1CC86DEE7EB9990DD3141C20522BE847 /* AnimatedField-dummy.m */,
+				57DB8CC6076B5CB5BA8014BCA022EF8D /* AnimatedField-Info.plist */,
+				FC22B0B1CCD55C4C24861B80EF94CDF4 /* AnimatedField-prefix.pch */,
+				AC939FA0D227DD42416644972D316F43 /* AnimatedField-umbrella.h */,
+				61844D2D7D28D701C7620E8C63B1D7C9 /* AnimatedField.debug.xcconfig */,
+				966E31604CA246FA7BC03C3B73B95174 /* AnimatedField.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/AnimatedField";
+			sourceTree = "<group>";
+		};
+		89A22C0EEB677AC45B9395569A67AF38 /* GCCountryPicker */ = {
+			isa = PBXGroup;
+			children = (
+				C1F142CB3A9634471C0D1105E9D30953 /* GCCountry.swift */,
+				1376E547CD4554C3D77AEE144DEA7FC0 /* GCCountryPicker.h */,
+				32AD7BC853BAD4224ADC76DD73CF7090 /* GCCountryPickerDataSource.swift */,
+				80CC467814F7687B341EE968469D80F2 /* GCCountryPickerDelegate.swift */,
+				6F166B1710180732394236E1469473B8 /* GCCountryPickerDisplayMode.swift */,
+				425D846F5D22DD02EBFB49351AB7D599 /* GCCountryPickerViewController.swift */,
+				61439C841A7AE8DF5BAB02D2646A26F6 /* GCSearchResult.swift */,
+				AB92976A31B1DEA5556B14B6F1F17F6C /* GCSearchResultsController.swift */,
+				A8570540D46BF41F44B842670A5C6701 /* GCSearchResultsDelegate.swift */,
+				1839A16D9BE11F7DEFB71E40088C1CA5 /* GCSearchResultsDisplayMode.swift */,
+				2B9D69BAFEC627C84AC35D073A6282E6 /* Support Files */,
+			);
+			name = GCCountryPicker;
+			path = GCCountryPicker;
+			sourceTree = "<group>";
+		};
+		98914EBEDBB1DAC61C064F9160EA292B /* Pods-KarooooTests */ = {
+			isa = PBXGroup;
+			children = (
+				35534A52A0920FA2818C848271E9FE59 /* Pods-KarooooTests.modulemap */,
+				2C846C8B4E67EA33EDE0EFBF1EA8365C /* Pods-KarooooTests-acknowledgements.markdown */,
+				896E8DBCA2CCEC55B24145D2BCAFA6BC /* Pods-KarooooTests-acknowledgements.plist */,
+				CFC6B2055868B073752A9B4EC0D1F371 /* Pods-KarooooTests-dummy.m */,
+				553B9E1C05E8891A66D80605424EFC6E /* Pods-KarooooTests-Info.plist */,
+				297CB87EC9738E01557AFEB80208CD7D /* Pods-KarooooTests-umbrella.h */,
+				B720E218E39DA433AAFBA2685EA29544 /* Pods-KarooooTests.debug.xcconfig */,
+				3D51428804EEB5C171D5E254CFAC6AEB /* Pods-KarooooTests.release.xcconfig */,
+			);
+			name = "Pods-KarooooTests";
+			path = "Target Support Files/Pods-KarooooTests";
+			sourceTree = "<group>";
+		};
+		AC70DEB9CD1B2913FFA94A98F539526C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				910F2D8EF40BAEFB762747427B16E046 /* AnimatedField */,
+				F003F0837EB22BDED95AFA255FAB3DA1 /* GCCountryPicker */,
+				7CED7E64E193EBEA9566D516A71E3187 /* Pods-Karoooo */,
+				3CAC41C176309292B866743C6376BEFC /* Pods-Karoooo-KarooooUITests */,
+				002F2D05894ABA214A1A1A93DBEF9D49 /* Pods-KarooooTests */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */,
+				22B44DD79693A6257171E172F8557938 /* Pods */,
+				AC70DEB9CD1B2913FFA94A98F539526C /* Products */,
+				4DB7943A7099047507B70C67C02605E3 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		DE1679686EE962C9B004EF985CDEF521 /* Pods-Karoooo-KarooooUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9BB71614610FC08BFC0F187C6C58D665 /* Pods-Karoooo-KarooooUITests.modulemap */,
+				C013B29AB38B52D02D861AB10CCF811F /* Pods-Karoooo-KarooooUITests-acknowledgements.markdown */,
+				53CF1D3ACA43E486F54278CAC47B42AA /* Pods-Karoooo-KarooooUITests-acknowledgements.plist */,
+				39D754A460AAD8624DCD2D412B8CD915 /* Pods-Karoooo-KarooooUITests-dummy.m */,
+				C7FD8960FE6868A83832AD2C497C7C28 /* Pods-Karoooo-KarooooUITests-frameworks.sh */,
+				E647AA729DF9733B9F0789B66E068DFE /* Pods-Karoooo-KarooooUITests-Info.plist */,
+				593672C266F137C5E1D78BAD17A5510C /* Pods-Karoooo-KarooooUITests-umbrella.h */,
+				92BE3D4AE6C22ED887FED1BCF484BF99 /* Pods-Karoooo-KarooooUITests.debug.xcconfig */,
+				BC5BA7860A6C4A7AD1C6CD109CAB5BB7 /* Pods-Karoooo-KarooooUITests.release.xcconfig */,
+			);
+			name = "Pods-Karoooo-KarooooUITests";
+			path = "Target Support Files/Pods-Karoooo-KarooooUITests";
+			sourceTree = "<group>";
+		};
+		F440236F2752C729E37C669460D553ED /* Pods-Karoooo */ = {
+			isa = PBXGroup;
+			children = (
+				0E264F7FEE71833F86626FC1A3DF79BF /* Pods-Karoooo.modulemap */,
+				1060C6F6924810ED258ADDF4AEC0FD4D /* Pods-Karoooo-acknowledgements.markdown */,
+				3933744BED8A825C499E80D5BDCECD57 /* Pods-Karoooo-acknowledgements.plist */,
+				F395D5A9F26728FCBE66D7665DBA2B57 /* Pods-Karoooo-dummy.m */,
+				6B52745509F79CB8FD966456B0B9B529 /* Pods-Karoooo-frameworks.sh */,
+				E269F75743625EA6CF3479455E6A96C2 /* Pods-Karoooo-Info.plist */,
+				8315A14DA6119981998246AAEFA6D071 /* Pods-Karoooo-umbrella.h */,
+				935392B7DECC481E866C3178A7BDF60A /* Pods-Karoooo.debug.xcconfig */,
+				8D31E0190373D120DA9AB3C5FD6BB583 /* Pods-Karoooo.release.xcconfig */,
+			);
+			name = "Pods-Karoooo";
+			path = "Target Support Files/Pods-Karoooo";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		192DC48ADAB0BD0FE3473A320BEB2BF6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1CE67D773FD85C2C6527A3E44EFD6C87 /* AnimatedField-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		36C709CA75EF4A98396351B72470F1B9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B5D2072D9581FC283565DB1DEBBA706 /* Pods-Karoooo-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8FC73262C7882F6D676D741A4C95F2C8 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9ED659DE4448FB2FEAC161F359FC02C8 /* GCCountryPicker.h in Headers */,
+				8B4A535D333AF50CB7EDEBCBE90E42EE /* GCCountryPicker-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A66C61FC10A7801861C5CAA1D2B1860E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1C4E1849BB17025DFA2D0A88FDF69F5 /* Pods-Karoooo-KarooooUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEFE7139D80F7836FC6C6D44B4FE3203 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6E0DE1B5E8CF607EC1DEACB3CBDB3EE /* Pods-KarooooTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		20BA7468F65980A1E072E51F7AB950B7 /* GCCountryPicker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BCD6B1172639ED7A5FD20CE0D46FE397 /* Build configuration list for PBXNativeTarget "GCCountryPicker" */;
+			buildPhases = (
+				8FC73262C7882F6D676D741A4C95F2C8 /* Headers */,
+				B262897F1E81A8F20AB382725194AE70 /* Sources */,
+				601DB28BF7A6DA4286B3D110D5730367 /* Frameworks */,
+				C4E3965A205065B0B76C53AA5621E63A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GCCountryPicker;
+			productName = GCCountryPicker;
+			productReference = F003F0837EB22BDED95AFA255FAB3DA1 /* GCCountryPicker */;
+			productType = "com.apple.product-type.framework";
+		};
+		2818A1055AB886D9D67D0CB7670F380A /* Pods-Karoooo-KarooooUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF2C22910E95149F7836538EC07A9889 /* Build configuration list for PBXNativeTarget "Pods-Karoooo-KarooooUITests" */;
+			buildPhases = (
+				A66C61FC10A7801861C5CAA1D2B1860E /* Headers */,
+				D68848696092CEDBF97337BFC20EB790 /* Sources */,
+				A2FCCC112959FF2A916BBCCB2155F07A /* Frameworks */,
+				6843B738E782E386FA9C279019DE3A0C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3D6F08452F6F8B5CA67A3A5A44F462CB /* PBXTargetDependency */,
+				15CA0938DC4EE303F166280AF9BF730F /* PBXTargetDependency */,
+			);
+			name = "Pods-Karoooo-KarooooUITests";
+			productName = Pods_Karoooo_KarooooUITests;
+			productReference = 3CAC41C176309292B866743C6376BEFC /* Pods-Karoooo-KarooooUITests */;
+			productType = "com.apple.product-type.framework";
+		};
+		3470B498DB98A353851F445DEEA61919 /* Pods-Karoooo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5EFB890D98A382ED09333C6E1C39AAEF /* Build configuration list for PBXNativeTarget "Pods-Karoooo" */;
+			buildPhases = (
+				36C709CA75EF4A98396351B72470F1B9 /* Headers */,
+				8C9A47A3CFB3757DE29DEF329EE5BB5A /* Sources */,
+				DC17CC1E086F0E2F0629E76781BAE0B0 /* Frameworks */,
+				4CBF4E9E2142C1B2B21474AFEB857539 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C07D3A3DA732E9E2EBE466F49511BD66 /* PBXTargetDependency */,
+				162B7D8DBA2835630F9BCAA478DF9525 /* PBXTargetDependency */,
+			);
+			name = "Pods-Karoooo";
+			productName = Pods_Karoooo;
+			productReference = 7CED7E64E193EBEA9566D516A71E3187 /* Pods-Karoooo */;
+			productType = "com.apple.product-type.framework";
+		};
+		59DA007292F00F114FC99351C0DF6848 /* Pods-KarooooTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1A8C653B81FDB0C693AADC27861C3779 /* Build configuration list for PBXNativeTarget "Pods-KarooooTests" */;
+			buildPhases = (
+				CEFE7139D80F7836FC6C6D44B4FE3203 /* Headers */,
+				DFCF6932079EF2327381F5B7FFC41875 /* Sources */,
+				165F06CF1F1852D159FE6485FBAEFB35 /* Frameworks */,
+				FFDE2E15E6A4869F22C4A3CB2F2498BA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8C605E70008BFB2F2AAC1F373F8A8C49 /* PBXTargetDependency */,
+			);
+			name = "Pods-KarooooTests";
+			productName = Pods_KarooooTests;
+			productReference = 002F2D05894ABA214A1A1A93DBEF9D49 /* Pods-KarooooTests */;
+			productType = "com.apple.product-type.framework";
+		};
+		9FA631C269FD035489D932BE6527E56C /* AnimatedField */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 196F44487F6E1A6D1A8B403DBF9F59AD /* Build configuration list for PBXNativeTarget "AnimatedField" */;
+			buildPhases = (
+				192DC48ADAB0BD0FE3473A320BEB2BF6 /* Headers */,
+				6C1B499EFA413E55B050F01423A0CB1B /* Sources */,
+				C63F8EDE0FDA9EB7E1D0A224F5A670CE /* Frameworks */,
+				BC35D5D267C0E9486AB46D5B926D5014 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AnimatedField;
+			productName = AnimatedField;
+			productReference = 910F2D8EF40BAEFB762747427B16E046 /* AnimatedField */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = AC70DEB9CD1B2913FFA94A98F539526C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9FA631C269FD035489D932BE6527E56C /* AnimatedField */,
+				20BA7468F65980A1E072E51F7AB950B7 /* GCCountryPicker */,
+				3470B498DB98A353851F445DEEA61919 /* Pods-Karoooo */,
+				2818A1055AB886D9D67D0CB7670F380A /* Pods-Karoooo-KarooooUITests */,
+				59DA007292F00F114FC99351C0DF6848 /* Pods-KarooooTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4CBF4E9E2142C1B2B21474AFEB857539 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6843B738E782E386FA9C279019DE3A0C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC35D5D267C0E9486AB46D5B926D5014 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4E3965A205065B0B76C53AA5621E63A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFDE2E15E6A4869F22C4A3CB2F2498BA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6C1B499EFA413E55B050F01423A0CB1B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DEA45E486B84D9D5E48C18EC9B3FE6A3 /* AnimatedField.swift in Sources */,
+				332FF4F17761FDD9C733710575921E3D /* AnimatedField.xib in Sources */,
+				9AD280505EE3218CCFE1403920EFB742 /* AnimatedField+Protocols.swift in Sources */,
+				C87A64691CF40D392BB045A5DF3B8D2F /* AnimatedField+TextFieldDelegate.swift in Sources */,
+				AE0E83C496D124B88BDA8996BCA199A6 /* AnimatedField+TextViewDelegate.swift in Sources */,
+				06BEBCDCCCA58103E89F419022D43F2E /* AnimatedField+UIPickerViewDelegate.swift in Sources */,
+				1250ACE56046863584AFF7AF7175F796 /* AnimatedField-dummy.m in Sources */,
+				256ACFB83051C34728991DC155E5088A /* AnimatedFieldAlertPosition.swift in Sources */,
+				4227D659907F57955F99FF5F734F67DC /* AnimatedFieldFormat.swift in Sources */,
+				0C55447572C988A6440C10073CDED2C0 /* AnimatedFieldType.swift in Sources */,
+				FEB660BE08BB2919022299CB6EB32F59 /* Date+Format.swift in Sources */,
+				C4BD6778A514AB4C04AA9968A5DB3B24 /* IconsLibrary.swift in Sources */,
+				7AB80CFEEBA3B5B02B0FCB9CFEBC3963 /* String+RegEx.swift in Sources */,
+				615BC5AA89F37F56CFDAB8DCA0AAB6F6 /* UIView+Nib.swift in Sources */,
+				E7E2053DBC1020D9338B79F82685D77E /* UIView+Shake.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C9A47A3CFB3757DE29DEF329EE5BB5A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA83A0418F3882C52D4B2A4C16EC206C /* Pods-Karoooo-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B262897F1E81A8F20AB382725194AE70 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F70EC9C7955F639C860542837F09455 /* GCCountry.swift in Sources */,
+				AA5074A2B8B69A08176ED6ABCB092A60 /* GCCountryPicker-dummy.m in Sources */,
+				4CCDA67FEFBE8E95B3B9350A02604FF9 /* GCCountryPickerDataSource.swift in Sources */,
+				2B373EEFEA9539504F9D9148AB200AED /* GCCountryPickerDelegate.swift in Sources */,
+				7BF3BED314E3B5786C624F3F3954F7F5 /* GCCountryPickerDisplayMode.swift in Sources */,
+				A3BC83608E558F2FF594B6F6732240B2 /* GCCountryPickerViewController.swift in Sources */,
+				8FEB5E7DF95EE8D60E771CB3D1FC780A /* GCSearchResult.swift in Sources */,
+				BF330526D278955AE95A3C61CF8AB27F /* GCSearchResultsController.swift in Sources */,
+				F54FC5C9D1522D0410BFC06271D10A50 /* GCSearchResultsDelegate.swift in Sources */,
+				06449DE20AB55CBB23F577C3EC31BA4B /* GCSearchResultsDisplayMode.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D68848696092CEDBF97337BFC20EB790 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EEB9577127F8C4A5B48280B655283127 /* Pods-Karoooo-KarooooUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFCF6932079EF2327381F5B7FFC41875 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B26DF0449CFB70C14816A30FD696A3A2 /* Pods-KarooooTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		15CA0938DC4EE303F166280AF9BF730F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GCCountryPicker;
+			target = 20BA7468F65980A1E072E51F7AB950B7 /* GCCountryPicker */;
+			targetProxy = 74EF47C1B4A815A8C187941D57CD2882 /* PBXContainerItemProxy */;
+		};
+		162B7D8DBA2835630F9BCAA478DF9525 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GCCountryPicker;
+			target = 20BA7468F65980A1E072E51F7AB950B7 /* GCCountryPicker */;
+			targetProxy = F673F422D892441C06BA0CAFEAF979A0 /* PBXContainerItemProxy */;
+		};
+		3D6F08452F6F8B5CA67A3A5A44F462CB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AnimatedField;
+			target = 9FA631C269FD035489D932BE6527E56C /* AnimatedField */;
+			targetProxy = C5E57B00BA87E2E1DB0BFE2337960353 /* PBXContainerItemProxy */;
+		};
+		8C605E70008BFB2F2AAC1F373F8A8C49 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-Karoooo";
+			target = 3470B498DB98A353851F445DEEA61919 /* Pods-Karoooo */;
+			targetProxy = EE0A14CD46B212A8FE561876B2069F67 /* PBXContainerItemProxy */;
+		};
+		C07D3A3DA732E9E2EBE466F49511BD66 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AnimatedField;
+			target = 9FA631C269FD035489D932BE6527E56C /* AnimatedField */;
+			targetProxy = 2CFB7E48F867875FBCB396E61BF27B15 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		45285987FDC204B9DB7C0228892D4B3E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		4BA7382BB6F3978193CD56BF0A53179E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 935392B7DECC481E866C3178A7BDF60A /* Pods-Karoooo.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Karoooo/Pods-Karoooo-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Karoooo/Pods-Karoooo.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6AF9D8D0B4F4FA4695A8EEF773CD3FBC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		8AEE11CEEF45D3F1A97CCD1919B2F62F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 92BE3D4AE6C22ED887FED1BCF484BF99 /* Pods-Karoooo-KarooooUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Karoooo-KarooooUITests/Pods-Karoooo-KarooooUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Karoooo-KarooooUITests/Pods-Karoooo-KarooooUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		9C847AB06A7D94FC8567DD609EDA2E28 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 61844D2D7D28D701C7620E8C63B1D7C9 /* AnimatedField.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/AnimatedField/AnimatedField-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AnimatedField/AnimatedField-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/AnimatedField/AnimatedField.modulemap";
+				PRODUCT_MODULE_NAME = AnimatedField;
+				PRODUCT_NAME = AnimatedField;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		ADB6F01C9CC9CD099F633DA59716585A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 966E31604CA246FA7BC03C3B73B95174 /* AnimatedField.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/AnimatedField/AnimatedField-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AnimatedField/AnimatedField-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/AnimatedField/AnimatedField.modulemap";
+				PRODUCT_MODULE_NAME = AnimatedField;
+				PRODUCT_NAME = AnimatedField;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		BB88C685B3AF27A81A31B9BE37D26A12 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8D31E0190373D120DA9AB3C5FD6BB583 /* Pods-Karoooo.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Karoooo/Pods-Karoooo-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Karoooo/Pods-Karoooo.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C213C0605CF109EEA6D074DEB5A67EE0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3D51428804EEB5C171D5E254CFAC6AEB /* Pods-KarooooTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-KarooooTests/Pods-KarooooTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-KarooooTests/Pods-KarooooTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D6134F32FB39B0DC836C5909E2D2E896 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BC5BA7860A6C4A7AD1C6CD109CAB5BB7 /* Pods-Karoooo-KarooooUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Karoooo-KarooooUITests/Pods-Karoooo-KarooooUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Karoooo-KarooooUITests/Pods-Karoooo-KarooooUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		DF97F9075407CEEC328774A9910DA449 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4F454AED0A40DF852EDC0589D6A870A9 /* GCCountryPicker.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/GCCountryPicker/GCCountryPicker-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/GCCountryPicker/GCCountryPicker-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/GCCountryPicker/GCCountryPicker.modulemap";
+				PRODUCT_MODULE_NAME = GCCountryPicker;
+				PRODUCT_NAME = GCCountryPicker;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		FB7657DB8D1C14693238CB796DC8104C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 28B64581F83A4603AC2E82FA8C82C81C /* GCCountryPicker.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/GCCountryPicker/GCCountryPicker-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/GCCountryPicker/GCCountryPicker-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/GCCountryPicker/GCCountryPicker.modulemap";
+				PRODUCT_MODULE_NAME = GCCountryPicker;
+				PRODUCT_NAME = GCCountryPicker;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		FC46BE29A86015E5FCDF3164704593C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B720E218E39DA433AAFBA2685EA29544 /* Pods-KarooooTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-KarooooTests/Pods-KarooooTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-KarooooTests/Pods-KarooooTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		196F44487F6E1A6D1A8B403DBF9F59AD /* Build configuration list for PBXNativeTarget "AnimatedField" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C847AB06A7D94FC8567DD609EDA2E28 /* Debug */,
+				ADB6F01C9CC9CD099F633DA59716585A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1A8C653B81FDB0C693AADC27861C3779 /* Build configuration list for PBXNativeTarget "Pods-KarooooTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC46BE29A86015E5FCDF3164704593C7 /* Debug */,
+				C213C0605CF109EEA6D074DEB5A67EE0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45285987FDC204B9DB7C0228892D4B3E /* Debug */,
+				6AF9D8D0B4F4FA4695A8EEF773CD3FBC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5EFB890D98A382ED09333C6E1C39AAEF /* Build configuration list for PBXNativeTarget "Pods-Karoooo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4BA7382BB6F3978193CD56BF0A53179E /* Debug */,
+				BB88C685B3AF27A81A31B9BE37D26A12 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BCD6B1172639ED7A5FD20CE0D46FE397 /* Build configuration list for PBXNativeTarget "GCCountryPicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF97F9075407CEEC328774A9910DA449 /* Debug */,
+				FB7657DB8D1C14693238CB796DC8104C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF2C22910E95149F7836538EC07A9889 /* Build configuration list for PBXNativeTarget "Pods-Karoooo-KarooooUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8AEE11CEEF45D3F1A97CCD1919B2F62F /* Debug */,
+				D6134F32FB39B0DC836C5909E2D2E896 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

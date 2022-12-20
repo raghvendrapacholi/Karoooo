@@ -1,0 +1,6 @@
+framework module Pods_Karoooo {
+  umbrella header "Pods-Karoooo-umbrella.h"
+
+  export *
+  module * { export * }
+}

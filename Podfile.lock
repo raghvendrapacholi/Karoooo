@@ -1,0 +1,20 @@
+PODS:
+  - AnimatedField (2.4.4)
+  - GCCountryPicker (2.5.0)
+
+DEPENDENCIES:
+  - AnimatedField
+  - GCCountryPicker
+
+SPEC REPOS:
+  trunk:
+    - AnimatedField
+    - GCCountryPicker
+
+SPEC CHECKSUMS:
+  AnimatedField: af48a2d59a50b33b30446267f7f2af274296203c
+  GCCountryPicker: b39549253d2daa5dee3414265263d19f7ec39446
+
+PODFILE CHECKSUM: 12746cc05a048e8ace88ec37726efb268bfc2836
+
+COCOAPODS: 1.11.3
