@@ -38,14 +38,14 @@ class LoginViewController: UIViewController {
         format.titleAlwaysVisible = true
         
         usernameTextField.format = format
-        usernameTextField.placeholder = "Write your username"
+        usernameTextField.placeholder = "Write your username(min.)"
         usernameTextField.type = .username(6, 20)
         usernameTextField.delegate = self
         usernameTextField.tag = 0
         
         passwordTextField.format = format
         passwordTextField.placeholder = "Enter password"
-        passwordTextField.type = .password(6, 10)
+        passwordTextField.type = .password(6, 20)
         passwordTextField.isSecure = true
         passwordTextField.delegate = self
         passwordTextField.showVisibleButton = true
