@@ -12,7 +12,7 @@ class UsersListViewController : UITableViewController {
     
     // MARK: Properties
     private var webservice :Webservice!
-    private var usersListViewModel :UsersListViewModel!
+    var usersListViewModel :UsersListViewModel!
     private var dataSource :TableViewDataSource<UsersTableViewCell,UserDetailsViewModel>!
     
     // MARK: Methods

@@ -11,7 +11,10 @@ target 'Karoooo' do
 
   target 'KarooooTests' do
     inherit! :search_paths
+	pod 'Quick'
+      pod 'Nimble'
     # Pods for testing
+
   end
 
   target 'KarooooUITests' do

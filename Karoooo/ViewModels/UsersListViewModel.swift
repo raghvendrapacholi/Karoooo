@@ -12,7 +12,7 @@ class UsersListViewModel {
     
     // MARK: Properties
     private var webservice :Webservice
-    private (set) var usersDetailsViewModel :[UserDetailsViewModel] = [UserDetailsViewModel]()
+    var usersDetailsViewModel :[UserDetailsViewModel] = [UserDetailsViewModel]()
     private var completion :() -> () = {  }
     
     // MARK: Intialisers

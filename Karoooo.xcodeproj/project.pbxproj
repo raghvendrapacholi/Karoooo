@@ -17,6 +17,10 @@
 		DD5B44752951F7A800C83A1E /* Coordinates.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD5B44742951F7A800C83A1E /* Coordinates.swift */; };
 		DD5B44772951F7CE00C83A1E /* CompanyDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD5B44762951F7CE00C83A1E /* CompanyDetails.swift */; };
 		DD5B44792951F7F600C83A1E /* UserDetailsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD5B44782951F7F600C83A1E /* UserDetailsViewModel.swift */; };
+		DD5B447D2953785000C83A1E /* UserDetailsSpecs.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD5B447C2953785000C83A1E /* UserDetailsSpecs.swift */; };
+		DD5B448029542B7200C83A1E /* Users_List.json in Resources */ = {isa = PBXBuildFile; fileRef = DD5B447F29542B7200C83A1E /* Users_List.json */; };
+		DD5B448229542E7100C83A1E /* UserListViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD5B448129542E7100C83A1E /* UserListViewControllerTests.swift */; };
+		DD5B4484295455D300C83A1E /* UserDetailViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD5B4483295455D300C83A1E /* UserDetailViewControllerTests.swift */; };
 		DDA6351E29509327002ABCCC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDA6351D29509327002ABCCC /* AppDelegate.swift */; };
 		DDA6352029509327002ABCCC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDA6351F29509327002ABCCC /* SceneDelegate.swift */; };
 		DDA6352529509327002ABCCC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDA6352329509327002ABCCC /* Main.storyboard */; };
@@ -70,6 +74,10 @@
 		DD5B44742951F7A800C83A1E /* Coordinates.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinates.swift; sourceTree = "<group>"; };
 		DD5B44762951F7CE00C83A1E /* CompanyDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompanyDetails.swift; sourceTree = "<group>"; };
 		DD5B44782951F7F600C83A1E /* UserDetailsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDetailsViewModel.swift; sourceTree = "<group>"; };
+		DD5B447C2953785000C83A1E /* UserDetailsSpecs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDetailsSpecs.swift; sourceTree = "<group>"; };
+		DD5B447F29542B7200C83A1E /* Users_List.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Users_List.json; sourceTree = "<group>"; };
+		DD5B448129542E7100C83A1E /* UserListViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserListViewControllerTests.swift; sourceTree = "<group>"; };
+		DD5B4483295455D300C83A1E /* UserDetailViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDetailViewControllerTests.swift; sourceTree = "<group>"; };
 		DDA6351A29509327002ABCCC /* Karoooo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Karoooo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DDA6351D29509327002ABCCC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DDA6351F29509327002ABCCC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -154,6 +162,31 @@
 			path = Helpers;
 			sourceTree = "<group>";
 		};
+		DD5B447A2953781300C83A1E /* ModelTests */ = {
+			isa = PBXGroup;
+			children = (
+				DD5B447C2953785000C83A1E /* UserDetailsSpecs.swift */,
+			);
+			path = ModelTests;
+			sourceTree = "<group>";
+		};
+		DD5B447B2953782400C83A1E /* ViewControllerTests */ = {
+			isa = PBXGroup;
+			children = (
+				DD5B448129542E7100C83A1E /* UserListViewControllerTests.swift */,
+				DD5B4483295455D300C83A1E /* UserDetailViewControllerTests.swift */,
+			);
+			path = ViewControllerTests;
+			sourceTree = "<group>";
+		};
+		DD5B447E2954299500C83A1E /* Stub */ = {
+			isa = PBXGroup;
+			children = (
+				DD5B447F29542B7200C83A1E /* Users_List.json */,
+			);
+			path = Stub;
+			sourceTree = "<group>";
+		};
 		DDA6351129509327002ABCCC = {
 			isa = PBXGroup;
 			children = (
@@ -200,6 +233,9 @@
 		DDA6353329509328002ABCCC /* KarooooTests */ = {
 			isa = PBXGroup;
 			children = (
+				DD5B447E2954299500C83A1E /* Stub */,
+				DD5B447B2953782400C83A1E /* ViewControllerTests */,
+				DD5B447A2953781300C83A1E /* ModelTests */,
 				DDA6353429509328002ABCCC /* KarooooTests.swift */,
 			);
 			path = KarooooTests;
@@ -308,6 +344,7 @@
 				DDA6352C29509328002ABCCC /* Sources */,
 				DDA6352D29509328002ABCCC /* Frameworks */,
 				DDA6352E29509328002ABCCC /* Resources */,
+				F3C576708C79C315812D20F0 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -397,6 +434,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DD5B448029542B7200C83A1E /* Users_List.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -510,6 +548,23 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		F3C576708C79C315812D20F0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KarooooTests/Pods-KarooooTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KarooooTests/Pods-KarooooTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-KarooooTests/Pods-KarooooTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -542,6 +597,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DD5B447D2953785000C83A1E /* UserDetailsSpecs.swift in Sources */,
+				DD5B448229542E7100C83A1E /* UserListViewControllerTests.swift in Sources */,
+				DD5B4484295455D300C83A1E /* UserDetailViewControllerTests.swift in Sources */,
 				DDA6353529509328002ABCCC /* KarooooTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
