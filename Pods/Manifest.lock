@@ -1,20 +1,28 @@
 PODS:
   - AnimatedField (2.4.4)
   - GCCountryPicker (2.5.0)
+  - Nimble (11.2.1)
+  - Quick (6.1.0)
 
 DEPENDENCIES:
   - AnimatedField
   - GCCountryPicker
+  - Nimble
+  - Quick
 
 SPEC REPOS:
   trunk:
     - AnimatedField
     - GCCountryPicker
+    - Nimble
+    - Quick
 
 SPEC CHECKSUMS:
   AnimatedField: af48a2d59a50b33b30446267f7f2af274296203c
   GCCountryPicker: b39549253d2daa5dee3414265263d19f7ec39446
+  Nimble: 516ac503a0fafaa8e41dbb4a70a61be421fa893a
+  Quick: 6676ffb409bf04abba2ff23902af2407bfc6ac90
 
-PODFILE CHECKSUM: 12746cc05a048e8ace88ec37726efb268bfc2836
+PODFILE CHECKSUM: 2540457e4a5ed4be653138fa8a909393bdba7792
 
 COCOAPODS: 1.11.3
